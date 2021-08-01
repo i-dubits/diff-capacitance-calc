@@ -17,5 +17,5 @@ Initial algorithm was published in ["Differential capacitance of a semiconductor
 ## User interface
 
 <p align="center">
-  <img src="gui.jpg" />
+  <img src="gui_2.jpg" />
 </p>
