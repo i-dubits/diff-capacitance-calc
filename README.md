@@ -7,9 +7,15 @@ for example, the dispersion relation, and its geometric parameters.
 The phenomenological theory of the space charge region is used, that is, quantum effects are taken into account only in the Fermi-Dirac statistics.
 Dimensional quantization effects are not considered. 
 
-Results were published in the following article "[On the Field Effect in Thin Films of Semiconductors
+Code was written mainly in 2011 year. Calculations were performed using [GSL](https://www.gnu.org/software/gsl/) library (GSL 1.14). GUI is based on MFC application which was built with Visual Studio 2010.  
+
+Results were published in "[On the Field Effect in Thin Films of Semiconductors
 with Kane’s Charge Carrier Dispersion Relation](https://link.springer.com/article/10.1134/S1063782614030117)". 
 
 Initial algorithm was published in ["Differential capacitance of a semiconductor film"](https://link.springer.com/article/10.1134/S106378261010009X).
 
+## User interface
 
+<p align="center">
+  <img src="img.jpeg" />
+</p>
