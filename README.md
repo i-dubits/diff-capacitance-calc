@@ -1,4 +1,4 @@
-# diff-capacitance-calc
+# Differential capacitance calculation
 
 This software performs calculation of the differential capacitance of semiconductor thin film.  
 Differential capacitance can be directly measured experimentally. Moreover it is closely related to both the internal properties of the semiconductor,
@@ -11,4 +11,5 @@ Results were published in the following article "[On the Field Effect in Thin Fi
 with Kane’s Charge Carrier Dispersion Relation](https://link.springer.com/article/10.1134/S1063782614030117)". 
 
 Initial algorithm was published in ["Differential capacitance of a semiconductor film"](https://link.springer.com/article/10.1134/S106378261010009X).
+
 
