@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Testing GSL.h" />
+    <ClInclude Include="Capacity_calc.h" />
+    <ClInclude Include="Concentration_functions.h" />
+    <ClInclude Include="dimension.h" />
+    <ClInclude Include="Fermi_searching.h" />
+    <ClInclude Include="in_out.h" />
+    <ClInclude Include="material_parameters.h" />
+    <ClInclude Include="phys_const.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Params.h" />
+    <ClInclude Include="Core.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Capacity_calc.cpp" />
+    <ClCompile Include="Concentration_functions.cpp" />
+    <ClCompile Include="dimension.cpp" />
+    <ClCompile Include="in_out.cpp" />
+    <ClCompile Include="material_parameters.cpp" />
+    <ClCompile Include="Testing GSL.cpp" />
+    <ClCompile Include="Diff_capacitance.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Fermi_searching.cpp" />
+    <ClCompile Include="Params.cpp" />
+    <ClCompile Include="Core.cpp" />
+  </ItemGroup>
+</Project>

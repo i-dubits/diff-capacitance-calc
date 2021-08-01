@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diff_capacitance", "Diff_capacitance\Diff_capacitance.vcxproj", "{43D5FCB8-82F7-442F-B40B-5D8E49608356}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI", "GUI\GUI.vcxproj", "{7FBDF37E-4BE8-4527-A2C7-B6FFBBB92B17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D5FCB8-82F7-442F-B40B-5D8E49608356}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43D5FCB8-82F7-442F-B40B-5D8E49608356}.Debug|Win32.Build.0 = Debug|Win32
+		{43D5FCB8-82F7-442F-B40B-5D8E49608356}.Release|Win32.ActiveCfg = Release|Win32
+		{43D5FCB8-82F7-442F-B40B-5D8E49608356}.Release|Win32.Build.0 = Release|Win32
+		{7FBDF37E-4BE8-4527-A2C7-B6FFBBB92B17}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FBDF37E-4BE8-4527-A2C7-B6FFBBB92B17}.Debug|Win32.Build.0 = Debug|Win32
+		{7FBDF37E-4BE8-4527-A2C7-B6FFBBB92B17}.Release|Win32.ActiveCfg = Release|Win32
+		{7FBDF37E-4BE8-4527-A2C7-B6FFBBB92B17}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
