@@ -14,19 +14,19 @@ class Fermi_searching_options	// settings
 private:
 	double absolute_err;		// absolute error
 	double relative_err;		// relative error
-	long iter;					// current step number 
-	long max_iter;				// maximal number of steps
+	long iter;			// current step number 
+	long max_iter;			// maximal number of steps
 	double initial_guess;		// initial_guess
 	
 	// integration routines
-	double int_abs_err;			// absolute integration error
-	double int_rel_err;			// relative integration error
+	double int_abs_err;		// absolute integration error
+	double int_rel_err;		// relative integration error
 public:
 	int iter_status;			
 
-	double variable_for_conc_fun;	// integrand parameter  
+	double variable_for_conc_fun;		// integrand parameter  
 	double variable_for_conc_fun_deriv;	// integrand derivative parameter 
-	double* result_int_abs_err;			// measured absolute error
+	double* result_int_abs_err;		// measured absolute error
 
 
 	Fermi_searching_options& set_abs_err (double abs_err) {absolute_err = abs_err; return *this;}			// set abs error
@@ -90,9 +90,7 @@ public:
 
 	Dimension dim_out () const {return dim;}	
 
-	// методы
+	// methods
 	double newton_method();	// return dimensionless Fermi level
-
-	// дополнительно
 	double debye_length_calc(void); 
 };
