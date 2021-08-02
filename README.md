@@ -1,6 +1,6 @@
 # Differential capacitance calculation
 
-This software performs calculation of the differential capacitance of semiconductor thin film.  
+This software performs calculation of the [differential capacitance](https://en.wikipedia.org/wiki/Differential_capacitance) of semiconductor thin film.  
 Differential capacitance can be directly measured experimentally. Moreover, it is closely related to both the internal properties of the semiconductor,
 for example, the dispersion relation, and its geometric parameters. 
 
