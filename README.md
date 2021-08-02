@@ -23,17 +23,36 @@ The section on the right is divided into three areas: **Semiconductor Properties
 
 ### Semiconductor Properties
 
-`Electron effective mass (relative)` - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron.
+`Electron effective mass (relative)` - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron
 
-`Hole effective mass (relative)` - the ratio of the effective mass of a hole in the valence band to the mass of a free electron.
+`Hole effective mass (relative)` - the ratio of the effective mass of a hole in the valence band to the mass of a free electron
 
-`Permittivity` - relative dielectric constant.
+`Permittivity` - relative dielectric constant
 
-`Band gap` - band gap in electron volts (eV).
+`Band gap` - band gap in electron volts (eV)
 
-`Thickness` - the thickness of the semiconductor film in meters.
+`Thickness` - the thickness of the semiconductor film in meters
 
-`Donor-Acceptor concentration diff` - the difference between donor and acceptor concentrations. It is suggested that donors and acceptors are fully ionized and uniformly distributed throughout the film. For an n-type semiconductor, this value is positive,  for a p-type semiconductor, it is negative. For an intrinsic semiconductor (or a compensated one), it equals zero. 
+`Donor-Acceptor concentration diff` - the difference between donor and acceptor concentrations. It is suggested that donors and acceptors are fully ionized and uniformly distributed throughout the film. For an n-type semiconductor, this value is positive,  for a p-type semiconductor, it is negative. For an intrinsic semiconductor (or a compensated one), it equals zero
 
 ### Problem Formulation
 
+`Minimal surface potential (V)` - minimum surface potential in volts
+
+`Maximal surface potential (V)` - maximum surface potential in volts
+
+`Points number` - the number of points where the surface differential capacitance will be calculated
+
+### Dispersion and Approximation
+
+Here user can select the dispersion law of charge carriers, their statistics and approximations used during calculation
+
+`Kein dispersion + Fermi statistics` - Kein (relativistic) dispersion and Fermi-Dirac statistics will be used in the calculations
+
+`Parabolic dispersion + Fermi (Aymerich-Humet approximation)` - parabolic dispersion  and Fermi-Dirac statistics. To speed up the calculations, the [Aymerich-Humet approximation](https://www.sciencedirect.com/science/article/abs/pii/0038110181901210) of the Fermi-Dirac integral of 1/2 order is used. Its maximal error is about 0.5 %
+
+`Parabolic dispersion + Fermi statistics` - parabolic dispersion and Fermi-Dirac statistics. Fermi-Dirac integral approximations are not used
+
+`Parabolic dispersion + Boltzmann statistics` - Parabolic dispersion law and Boltzmann statistics. Suitable for non-degenerate semiconductors
+
+Resuslts and overal calculation progress are shown on the right panel. 
