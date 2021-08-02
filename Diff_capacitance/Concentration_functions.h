@@ -89,12 +89,12 @@ private:
 public:
 	// k - order of Fermi-Dirac integral
 	static double fermi_dirac_approx (double x, double k); 
-	// coefficients a, b, с (used in approximation)
+	// coefficients a, b, Г± (used in approximation)
 	static double a_coeff (double k); 
 	static double b_coeff (double k);
-	static double с_coeff (double k);
+	static double c_coeff (double k);
 
-	// подынт выражения для Кейна
+	// integrand for Kein dispersion
 	static double integrand_for_conc_Kein_fermi (double x, void* param);	// concentration integrand 
 	static double integrand_for_conc_deriv_Kein_fermi (double x, void* param);	// concentration derivative integrand 
 };
