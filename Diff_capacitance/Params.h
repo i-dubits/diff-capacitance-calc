@@ -12,7 +12,7 @@ class Params
 {
 
 public:
-	// свойства материала
+	// material parameters
 	double imp_conc;			// impurity concentration (n_d - n_a)
 	double eff_mass_el;			// the ratio of the effective mass of an electron to the mass of a free electron 
 	double eff_mass_hole;		// the ratio of the effective mass of a hole to the mass of a free electron 
@@ -22,7 +22,7 @@ public:
 	double x;					// stechiometry
 	
 	// solver config
-	double v_s_min;				// minimal surface potential (V) минимальный поверхностный потенциал (вольты)
+	double v_s_min;				// minimal surface potential (V) Г¬ГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГЇГ®ГўГҐГ°ГµГ­Г®Г±ГІГ­Г»Г© ГЇГ®ГІГҐГ­Г¶ГЁГ Г« (ГўГ®Г«ГјГІГ»)
 	double v_s_max;				// maximal surface potential (V) 
 	int point_number;			// number of points
 
