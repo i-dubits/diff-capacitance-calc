@@ -6,7 +6,7 @@ for example, the dispersion relation, and its geometric parameters.
 
 Thin film is considered in the framework of phenomenological theory of the space charge region, hence quantum effects are taken into account only in the Fermi-Dirac statistics. Dimensional quantization effects are not considered. 
 
-Code was written mainly in 2011 year. Calculations were performed using [GSL](https://www.gnu.org/software/gsl/) library (GSL 1.14). GUI is based on MFC application which was built with Visual Studio 2010.  
+Code was written mainly in 2011 year. Calculations were performed using [GSL](https://www.gnu.org/software/gsl/) library (GSL 1.14). GUI is based on [MFC](https://docs.microsoft.com/en-us/cpp/mfc/mfc-desktop-applications?view=msvc-160) application which was built with Visual Studio 2010.  
 
 Results were published in "[On the Field Effect in Thin Films of Semiconductors
 with Kane’s Charge Carrier Dispersion Relation](https://link.springer.com/article/10.1134/S1063782614030117)". 
