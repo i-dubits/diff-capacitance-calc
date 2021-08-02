@@ -15,7 +15,7 @@ Initial algorithm was published in ["Differential capacitance of a semiconductor
 
 ## User interface
 
-The section on the right is divided into three areas: `Semiconductor Properties` where material parameters should be entered; `Problem Formulation` for problem setup;   and `Dispersion and Approximation` for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
+The section on the right is divided into three areas: **Semiconductor Properties** where material parameters should be entered; **Problem Formulation** for problem setup;   and **Dispersion and Approximation** for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
 
 <p align="center">
   <img src="gui_2.jpg" />
@@ -23,15 +23,17 @@ The section on the right is divided into three areas: `Semiconductor Properties`
 
 ### Semiconductor Properties
 
-**Electron effective mass (relative)** - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron.
+`Electron effective mass (relative)` - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron.
 
-**Hole effective mass (relative)** - the ratio of the effective mass of a hole in the valence band to the mass of a free electron.
+`Hole effective mass (relative)` - the ratio of the effective mass of a hole in the valence band to the mass of a free electron.
 
-**Permittivity** - relative dielectric constant.
+`Permittivity` - relative dielectric constant.
 
-**Band gap** - band gap in electron volts (eV).
+`Band gap` - band gap in electron volts (eV).
 
-**Thickness** - the thickness of the semiconductor film in meters.
+`Thickness` - the thickness of the semiconductor film in meters.
 
-**Donor-Acceptor concentration diff** - the difference between donor and acceptor concentrations. It is suggested that donors and acceptors are fully ionized and uniformly distributed throughout the film. For an n-type semiconductor, this value is positive,  for a p-type semiconductor, it is negative. For an intrinsic semiconductor (or a compensated one), it equals zero. 
+`Donor-Acceptor concentration diff` - the difference between donor and acceptor concentrations. It is suggested that donors and acceptors are fully ionized and uniformly distributed throughout the film. For an n-type semiconductor, this value is positive,  for a p-type semiconductor, it is negative. For an intrinsic semiconductor (or a compensated one), it equals zero. 
+
+### Problem Formulation
 
