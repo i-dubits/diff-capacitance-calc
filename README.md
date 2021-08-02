@@ -1,7 +1,7 @@
 # Differential capacitance calculation
 
 This software performs calculation of the differential capacitance of semiconductor thin film.  
-Differential capacitance can be directly measured experimentally. Moreover it is closely related to both the internal properties of the semiconductor,
+Differential capacitance can be directly measured experimentally. Moreover, it is closely related to both the internal properties of the semiconductor,
 for example, the dispersion relation, and its geometric parameters. 
 
 Thin film is considered in the framework of phenomenological theory of the space charge region, hence quantum effects are taken into account only in the Fermi-Dirac statistics. Dimensional quantization effects are not considered. 
@@ -15,7 +15,9 @@ Initial algorithm was published in ["Differential capacitance of a semiconductor
 
 ## User interface
 
-The section on the right is divided into three areas: **Semiconductor Properties** where material parameters should be entered; **Problem Formulation** for problem setup;   and **Dispersion and Approximation** for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
+Results and overall calculation progress are shown on the right panel. 
+
+The section on the left is divided into three areas: **Semiconductor Properties** where material parameters should be entered; **Problem Formulation** for problem setup;   and **Dispersion and Approximation** for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed description of the each field can be found below.
 
 <p align="center">
   <img src="gui_2.jpg" />
@@ -55,4 +57,3 @@ Here user can select the dispersion law of charge carriers, their statistics and
 
 `Parabolic dispersion + Boltzmann statistics` - Parabolic dispersion law and Boltzmann statistics. Suitable for non-degenerate semiconductors
 
-Resuslts and overal calculation progress are shown on the right panel. 
