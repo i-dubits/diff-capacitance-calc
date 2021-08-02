@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Params.h"
 
-// конструкторы
+// constructors
 
 Params::Params(double imp_conc_c, double eff_mass_el_l, double eff_mass_hole_e, double permittivity_y, 
 		double band_gap_p, double thikness_s, double v_s_min_n, double v_s_max_x, int point_number_r, 
