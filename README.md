@@ -15,13 +15,13 @@ Initial algorithm was published in ["Differential capacitance of a semiconductor
 
 ## User interface
 
-The section on the right is divided into three areas: `semiconductor properties` where material parameters should be entered; `problem formulation` for problem setup;   and dispersion and approximations for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
+The section on the right is divided into three areas: `Semiconductor Properties` where material parameters should be entered; `Problem Formulation` for problem setup;   and `Dispersion and Approximation` for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
 
 <p align="center">
   <img src="gui_2.jpg" />
 </p>
 
-### Semiconductor properties
+### Semiconductor Properties
 
 **Electron effective mass (relative)** - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron.
 
