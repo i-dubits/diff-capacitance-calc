@@ -1,4 +1,4 @@
-// Обезразмеривание. Возможны разные виды обезразмеривания в зависимости от хар длины.
+// dimension class
  
 
 
@@ -61,8 +61,8 @@ public:
 	// set characteristic length equal to termal length
 	Dimension& set_charact_l_as_wave_l_n_0(void);
 
-	Dimension& set_n_с (double emass, double permittivity);	//  n_c_dless  получается делением на n_0. если n_0 == 0 , то она полагается равной нулю.					
-	Dimension& set_n_v (double hmass, double permittivity);	//  n_v_dless т получается делением на n_0. если n_0 == 0 , то она полагается равной нулю.	
+	Dimension& set_n_Г± (double emass, double permittivity);	//  n_c_dless  ГЇГ®Г«ГіГ·Г ГҐГІГ±Гї Г¤ГҐГ«ГҐГ­ГЁГҐГ¬ Г­Г  n_0. ГҐГ±Г«ГЁ n_0 == 0 , ГІГ® Г®Г­Г  ГЇГ®Г«Г ГЈГ ГҐГІГ±Гї Г°Г ГўГ­Г®Г© Г­ГіГ«Гѕ.					
+	Dimension& set_n_v (double hmass, double permittivity);	//  n_v_dless ГІ ГЇГ®Г«ГіГ·Г ГҐГІГ±Гї Г¤ГҐГ«ГҐГ­ГЁГҐГ¬ Г­Г  n_0. ГҐГ±Г«ГЁ n_0 == 0 , ГІГ® Г®Г­Г  ГЇГ®Г«Г ГЈГ ГҐГІГ±Гї Г°Г ГўГ­Г®Г© Г­ГіГ«Гѕ.	
 
 	// ev to joule and vice versa 
 	double ev_to_joule (double);
