@@ -4,8 +4,7 @@ This software performs calculation of the differential capacitance of semiconduc
 Differential capacitance can be directly measured experimentally. Moreover it is closely related to both the internal properties of the semiconductor,
 for example, the dispersion relation, and its geometric parameters. 
 
-The phenomenological theory of the space charge region is used, that is, quantum effects are taken into account only in the Fermi-Dirac statistics.
-Dimensional quantization effects are not considered. 
+Thin film is considered in the framework of phenomenological theory of the space charge region, hence quantum effects are taken into account only in the Fermi-Dirac statistics. Dimensional quantization effects are not considered. 
 
 Code was written mainly in 2011 year. Calculations were performed using [GSL](https://www.gnu.org/software/gsl/) library (GSL 1.14). GUI is based on MFC application which was built with Visual Studio 2010.  
 
@@ -16,6 +15,23 @@ Initial algorithm was published in ["Differential capacitance of a semiconductor
 
 ## User interface
 
+The section on the right is divided into three areas: `semiconductor properties` where material parameters should be entered; `problem formulation` for problem setup;   and dispersion and approximations for choosing the dispersion law of carriers, the type of statistics and used approximations. Detailed desciptions of the each field can be found below.
+
 <p align="center">
   <img src="gui_2.jpg" />
 </p>
+
+### Semiconductor properties
+
+**Electron effective mass (relative)** - the ratio of the effective mass of an electron in the conduction band to the mass of a free electron.
+
+**Hole effective mass (relative)** - the ratio of the effective mass of a hole in the valence band to the mass of a free electron.
+
+**Permittivity** - relative dielectric constant.
+
+**Band gap** - band gap in electron volts (eV).
+
+**Thickness** - the thickness of the semiconductor film in meters.
+
+**Donor-Acceptor concentration diff** - the difference between donor and acceptor concentrations. It is suggested that donors and acceptors are fully ionized and uniformly distributed throughout the film. For an n-type semiconductor, this value is positive,  for a p-type semiconductor, it is negative. For an intrinsic semiconductor (or a compensated one), it equals zero. 
+
