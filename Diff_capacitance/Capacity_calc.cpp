@@ -1,5 +1,5 @@
 // Calculation of differential capacitance
-// based on the paper "On the field effect in thin films of semiconductors with Kane’s charge-carrier dispersion relation"
+// based on the paper "On the field effect in thin films of semiconductors with Kaneâ€™s charge-carrier dispersion relation"
 
 #include "stdafx.h"
 #include "Capacity_calc.h"
@@ -41,7 +41,7 @@ void Capacity_calculation::dim_config (void)
 	dim.set_charact_l_as_wave_l_n_0();
 	dim.set_band_gap( dim.ev_to_joule( mat_par -> gap() ) ); 
 	dim.set_n_t( mat_par -> imp_c(), mat_par -> perm() );	// set concentration of impurity 
-	dim.set_n_ñ (mat_par -> emass(), mat_par -> perm() );	// set n_c
+	dim.set_n_n (mat_par -> emass(), mat_par -> perm() );	// set n_c
 	dim.set_n_v (mat_par -> hmass(), mat_par -> perm() );	// set n_c
 }
 
@@ -52,7 +52,7 @@ void Capacity_calculation::dim_config (double length)
 	dim.set_charact_l_n_0(length);
 	dim.set_band_gap( dim.ev_to_joule( mat_par -> gap() ) ); 
 	dim.set_n_t(mat_par->imp_c(), mat_par->perm());			// set concentration of impurity 
-	dim.set_n_ñ(mat_par->emass(), mat_par->perm());			// set n_c
+	dim.set_n_n(mat_par->emass(), mat_par->perm());			// set n_c
 	dim.set_n_v(mat_par->hmass(), mat_par->perm());			// set n_c
 
 }
@@ -204,7 +204,7 @@ double Capacity_calculation::suface_charge_density_calc ( double v_s_deriv, doub
 
 // capacity calculation
 	// input: vector v_s
-	// output: vector ñ;
+	// output: vector Ã±;
 vector<double> Capacity_calculation::capacity_calculation (vector<double> v_s_vector)
 {
 	vector<double> capacity_vector;
